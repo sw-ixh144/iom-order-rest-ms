@@ -1,0 +1,10 @@
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+azure:
+  cosmos:
+    uri: https://iom-cosmossql-poc.documents.azure.com:443/
+    key: 83azGnz2rX7UI7z7uM0TiY3i3jGE7TbTqokJoykbHI6w4ktOlv4fW4qsP2n4bo5AS8sdaDlkPDkOijLWNSxqaQ==
+    database: iom
+    populateQueryMetrics: true
